@@ -1,16 +1,18 @@
 <script lang="ts">
-	export let name: string;
+import Samples from './Samples.svelte';
 </script>
 
-<main>
-	<h1>Svelte SPA Template</h1>
-	<p>
-		Docker + Svelte
-	</p>
-</main>
+<div class="container">
+	<div class="row">
+		<div class="col-12 display-1">
+			Svelte SPA Template with Bootstrap
+		</div>
+		<div class="col-12">
+				<a href="https://www.docker.com/">Docker</a>+
+				<a href="https://svelte.dev/">Svelte</a> +
+				<a href="https://getbootstrap.com">Bootstrap</a>
+		</div>
+	</div>
+</div>
 
-<style>
-	main {
-		text-align: center;
-	}
-</style>
+<Samples />
